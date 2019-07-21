@@ -8,3 +8,5 @@ dist
 coverage
 .idea/
 .history
+package-lock.json
+yarn.lock
