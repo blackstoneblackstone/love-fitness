@@ -1,0 +1,41 @@
+$mainColor: #38d4d6;
+$white:#ffffff;
+$c1: #b1d0d2;
+$c2: #73bfcc;
+$c3: #4ba2ac;
+$c4: #e0e0e0;
+$c5: #ffc499;
+$c6: #a98a6e;
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  color: #333;
+  font-size: 14px;
+  height: 100%;
+  background-color: #efeff4;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  color: #07c;
+  text-decoration: none;
+  &:hover {
+    color: #3af;
+    text-decoration: underline;
+  }
+}
+
+.logo {
+  height: 4rem;
+  padding: {
+    top: 1rem;
+  }
+}

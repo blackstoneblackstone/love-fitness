@@ -1,0 +1,473 @@
+@import 'amazeui.min';
+@import 'iconfont';
+@import 'base';
+@import 'animate';
+
+.js-header {
+  background-color: #ffffff;
+  height: 4rem;
+  text-align: center;
+  border-bottom: solid #cccccc 1px;
+}
+
+.js-header img {
+  height: 3rem;
+}
+
+.avactor {
+  border: solid $c1 2px;
+  border-radius: 5px;
+}
+
+.js-user-info {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.js-footer {
+  text-align: center;
+  color: $mainColor;
+  height: 60px;
+  padding: 10px;
+  background-color: #ffffff;
+  margin-top: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.jsc-label-active {
+  -webkit-transition: background-color 0.5s linear;
+  background-color: $mainColor !important;
+}
+
+.cl-label {
+  margin-left: 1rem;
+}
+
+.cl-label li {
+  height: 40px;
+  width: 80px;
+  border: 2px solid #fff;
+  background-color: #ccc;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  line-height: 40px;
+  float: left;
+  box-shadow: 1px 1px 1px #ccc;
+}
+
+.cl-con {
+  position: relative;
+  height: 100%;
+}
+
+.js-vip-tabs {
+  background-color: #ffffff;
+  min-height: 30rem;
+}
+
+.js-course-con {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.ant-card-body {
+  padding: 1rem;
+}
+
+.js-card-con {
+  margin-top: 10px;
+  min-height: 30rem;
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+label {
+  margin: 0;
+  color: $c3;
+  font-size: 0.8rem;
+  display: inline;
+}
+
+.btn-gm {
+  border: solid #f2f2f2 1px !important;
+  color: $mainColor;
+  font-size: 1rem;
+  border-radius: 0 !important;
+}
+
+.btn-hollow.active, .btn-hollow:active {
+  background-color: $mainColor !important;
+}
+
+.js-trainer {
+  width: 40%;
+  margin-left: 30%;
+  box-shadow: 0 0 10px 2px #cecbcb, 0 0 10px 5px #f5efef;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.js-xy {
+  width: 4rem;
+}
+
+.order-headimg {
+  border-radius: 50%;
+  margin-left: 0.5rem;
+  width: 2rem;
+}
+
+.ant-card-extra {
+  top: 10px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: red;
+}
+
+.new-price {
+  color: green;
+  font-size: 1.2rem;
+}
+
+.card-type-name {
+  color: $c3;
+  font-size: 1.2rem;
+}
+
+.card-type-desc {
+  color: $c6;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: solid $c5 1px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.list-btn {
+  background-color: $white;
+}
+
+.js-course-item {
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.js-course-item:hover {
+  background-color: #f2f2f2;
+}
+
+.js-course-item i {
+  color: $c3;
+  font-size: 1.5rem;
+  margin-right: 0;
+}
+
+.course-desc {
+  padding: 1rem;
+}
+
+.offcanvas {
+  width: 80%;
+}
+
+.course-type-con {
+  background-color: $white;
+  padding: 1rem 0;
+}
+
+.js-stop-right {
+  margin-left: 2rem;
+}
+
+.js-stop-con {
+  color: $c6;
+}
+
+.btn-group-justify {
+  display: -webkit-flex;
+  width: 100%
+}
+
+.btn-group-justify > .btn, .btn-group-justify > .btn-group {
+  -webkit-flex: 1;
+}
+
+.js-teacher-item image {
+  height: 5rem;
+  width: 5rem;
+}
+
+.group {
+  margin: 0
+}
+
+.vip-item {
+  margin-bottom: 1rem;
+  background-color: $white;
+}
+
+.course-item-desc {
+  border-top: dashed #ccc 1px;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem
+}
+
+.slider-indicators, .slider-thumbs {
+  display: -webkit-flex !important;
+  display: flex;
+}
+
+.slider-thumbs li {
+  -webkit-flex: 1;
+}
+
+hr {
+  margin: 5px 0;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.course-li {
+  position: relative;
+  padding: 0 0 12px 10px;
+  list-style: none;
+  margin: 0;
+}
+
+.course-li-tail {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  height: 100%;
+  border-left: 1px solid $mainColor;
+}
+
+.course-li-icon {
+  position: absolute;
+  left: -5px;
+  background-color: #fff;
+  padding: 1px 0;
+}
+
+.course-li-icon img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid $mainColor;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-align: center;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1.5;
+  padding: 4px 15px;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  position: relative;
+}
+
+.card {
+  border-radius: 5px;
+}
+
+.badge {
+  border-radius: 5px;
+}
+
+.col-2 {
+  -webkit-flex: 0 0 33.33333%;
+}
+
+.btn-success {
+  background-color: #fff;
+  border: solid #5eb95e 1px;
+  color: #5eb95e;
+}
+
+.btn-primary {
+  background-color: #fff;
+  border: solid #0e90d2 1px;
+  color: #0e90d2;
+}
+
+.btn-alert {
+  background-color: #fff;
+  border: solid #dd514c 1px;
+  color: #dd514c;
+}
+
+.btn-warning {
+  background-color: #fff;
+  border: solid #f37b1d 1px;
+  color: #f37b1d;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  border: solid #3bb4f2 1px;
+  color: #3bb4f2;
+}
+
+.star {
+  color: red;
+  padding: 0 10px;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.js-ask-me {
+  padding: 20px;
+  height: 100%;
+  border: solid $mainColor 10px;
+}
+
+.js-ask-me-day {
+  position: absolute;
+  bottom: 10px;
+  width: 50px;
+  right: 30px;
+}
+
+.js-ask-me-day button {
+  border-radius: 0px;
+}
+
+.js-ask-me-time button {
+  margin: 5px;
+}
+
+.check {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.check .headimg {
+  border-radius: 50%;
+  border: solid $c5 1px;
+  width: 30%;
+}
+
+.tabs {
+  width: 100%;
+}
+
+.trainer-desc {
+  margin-bottom: 2rem;
+}
+
+.pv-times {
+  padding: 1rem;
+  overflow: auto;
+}
+
+.pv-times button {
+  margin: 1.5%;
+  float: left;
+  padding: .1rem;
+  width: 30%;
+  height: 4rem;
+  border: solid $c2 1px;
+  color: $c3;
+  font-size: 1rem;
+}
+
+.pv-times i {
+  font-size: 1.5rem;
+}
+
+.card-cover {
+  min-height: 20rem;
+}
+
+.tabs {
+  margin: 0 !important;
+}
+
+.js-vip-tab {
+  font-size: 1rem;
+}
+
+.js-vip-tab i {
+  font-size: 2rem;
+}
+
+.pv-title {
+  height: 3rem;
+  width: 100%;
+  border: solid #f2f2f2 1px;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  color: $mainColor;
+  text-align: center;
+}
+
+.modal-actions-group > button {
+  height: 50px;
+}
+
+.teacher-con {
+  // height: 9rem;
+  overflow: hidden;
+  padding-bottom: 1rem;
+}
+
+.teacher-con li {
+  box-sizing: border-box;
+  float: left;
+  width: 22%;
+  margin-left: 2.5%;
+  padding: 1%;
+  height: 8rem;
+  text-align: center;
+  border: solid $c5 1px;
+  border-radius: 5px;
+}
+
+.teacher-con li > .tc-img {
+  width: 100%;
+  height: 6rem;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.pv-use-img {
+  -webkit-filter: blur(2px); /* Chrome, Opera */
+  -moz-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=2, MakeShadow=false);
+}
+
+.trainer-no {
+  text-align: center;
+  padding-top: 30px;
+  height: 300px;
+}
+
