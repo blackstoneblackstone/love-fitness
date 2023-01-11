@@ -106,7 +106,7 @@
     "js-yaml": "^3.8.3",
     "jsbarcode": "^3.8.0",
     "json-loader": "^0.5.4",
-    "ms": "^1.0.0",
+    "ms": "^2.0.0",
     "node-sass": "^4.5.2",
     "path-exists": "^3.0.0",
     "path-to-regexp": "^2.1.0",
